@@ -25,7 +25,7 @@ El presente estudio se desarrolla en el marco de un proyecto de atención en sal
 
 # Análisis de los datos
 
-Contamos con un conjunto de datos proporcionado por el cliente, el cual contiene información relevante sobre los pacientes. La primera etapa del análisis consistirá en realizar un análisis exploratorio de datos (EDA) para comprender la estructura, distribución y características de los datos disponibles. Esto permitirá identificar posibles sesgos, valores atípicos o inconsistencias en la información.
+Contamos con un conjunto de datos proporcionado por el cliente, el cual contiene información relevante sobre los pacientes. La primera etapa del análisis consistirá en realizar un análisis exploratorio de datos (EDA) para comprender la estructura, distribución y características de los datos disponibles. Esto permitirá identificar posibles sesgos, valores atípicos o inconsistencias en la información. Para un conjunto de variables de 20 se estan tomando las siguientes, ya que se considera que pueden aportar mucho mas información que el resto.
 
 <div align="center">
   <h1 align="center">
