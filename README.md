@@ -108,11 +108,13 @@ En este paso se instancia la clase, se entrena y se realiza la predicion sobre u
 
 Se encuentra disponible el dataset utilizado para llevar a cabo el analisis de los datos y dos (2) notebook
 
-[El Dataset](./Datasets/BBDD_Hospitalización.xlsx) <br>
+El archvio [Dataset](./Datasets/BBDD_Hospitalización.xlsx) contiene los datos que seran utilizado para todo el proceso necesario de analisis y modelamiento <br>
 
 El notebook [Preparacion de los datos](Preparacion_datos.ipynb) presenta un EDA, se decide la exclusion de variables que no se consideran que aprte información relevante, un proceso de imputación y transformacion de los datos y una matriz de confusión para entender la correlación de las variables <br>
 
-El notebook [Modelamiento](Modelamiento.ipynb) presetna en si el analisis sobre un modelo aplicado al problema planteado, su entrenamiento y prueba.
+El notebook [Modelamiento](Modelamiento.ipynb) presetna en si el analisis sobre un modelo aplicado al problema planteado, su entrenamiento y prueba. <br>
+
+El archvio [predecirHospitalizacion.py](predecirHospitalizacion.py) es un ejecutable que realizara todo el proceso descrito en los notebook.
 
 ## Conclusión
 
