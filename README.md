@@ -40,6 +40,7 @@ En un primer analisis realizado sobre variables numericas (ver imagen arriba), o
 </div>
 
 Observamos que los datos para la variable objetivo se encuentran desbalanceado
+<br>
 
 <div align="center">
      <img src="./img/desbalanceo_clases.png" alt="Tipos de Datos">
@@ -67,7 +68,10 @@ A continuacion de las variables seleccionadas, revisaremos la relacion existente
 </div>
 
 <br>
+
 Observemos una **matriz de correlación** con un **mapa de calor** 
+
+<br>
 
 <div align="center">
      <img src="./img/correlaciones2.png" alt="Tipos de Datos">
@@ -79,7 +83,7 @@ Ahora bien, se encuentra disponible el dataset utilizado para llevar a cabo el a
 
 [El Dataset](./Datasets/BBDD_Hospitalización.xlsx) <br>
 [Preparacion de los datos](Preparacion_datos.ipynb) <br>
-[Preparacion de los datos](Preparacion_datos.ipynb)
+[Modelamiento](Modelamiento.ipynb)
 
 ## Conclusión
 
