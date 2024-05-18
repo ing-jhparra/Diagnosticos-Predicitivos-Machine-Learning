@@ -77,6 +77,33 @@ Observemos una **matriz de correlación** con un **mapa de calor**
      <img src="./img/correlaciones2.png" alt="Tipos de Datos">
 </div>
 
+<br>
+
+## Modelamiento de un arbol de decisión 
+
+En este paso se instancia la calse, se entrena y se realiza la predicion sobre el modelo de un arbol de decisión para lo cual se obtuvo la siguietne matriz de confusion y puede observarse 
+
+<br>
+
+<div align="center">
+     <img src="./img/matriz_confusion.png" alt="Tipos de Datos">
+</div>
+
+<br>
+
+ En la clase del Si, tenemos un (1) fallos y 9 aciertos. Esto representa un  recall de 0.91 un valor muy bueno. También es interesante notar que en la columna de f1-score obtenemos muy buenos resultados. Nuestro modelo detectar correctamente los casos de Hospitalización.
+
+<br>
+
+<div align="center">
+     <img src="./img/metricas.png" alt="Tipos de Datos">
+</div>
+
+<br>
+
+
+
+
 ## Dataset y Notebook
 
 Se encuentra disponible el dataset utilizado para llevar a cabo el analisis de los datos y dos (2) notebook que abarca tanto la preparación de los datos como el modelamiento
@@ -103,7 +130,8 @@ Para finalizar, encontrar el mejor modelo, se requiere de conocimientos, tiempo 
 
 [Cómo escribir un README increíble en tu Github](https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github) <br>
 [Clases desbalanceadas en modelos de Machine Learning](https://www.juanbarrios.com/clases-desbalanceadas/) <br>
-[Markdown: Sintaxis](https://github.com/ricval/Documentacion/blob/master/Markdown/daringfireball/syntax.md)
+[Markdown: Sintaxis](https://github.com/ricval/Documentacion/blob/master/Markdown/daringfireball/syntax.md) <br>
+[Machine learning con Python y Scikit-learn](https://cienciadedatos.net/documentos/py06_machine_learning_python_scikitlearn.html)
 
 ## Créditos
 Copyright (c) 2024 [Ing. Jesús parra] parra.jesus@gmail.com
