@@ -39,13 +39,14 @@ En un primer analisis realizado sobre variables numericas (ver imagen arriba), o
      <img src="./img/estadisticas_num.png" alt="Tipos de Datos">
 </div>
 
-Observamos tambien que nuestros datos para la variable objetivo estan desbalanceado
+Observamos que los datos para la variable objetivo se encuentran desbalanceado
 
 <div align="center">
      <img src="./img/desbalanceo_clases.png" alt="Tipos de Datos">
 </div>
 
-Contamos para este tipo de analisis las siguientes estrategias a utilizar
+<br>
+para ello tenemos las siguientes estrategias a utilizar, que a continaución explicaremos
 
 **Ajuste de Parámetros del modelo**: Consiste en ajustar parametros ó metricas del propio algoritmo para intentar equilibrar a la clase minoritaria,  penalizando a la clase mayoritaria durante el entrenamiento. Ejemplos en ajuste de peso en árboles, también en logistic regression tenemos el parámetro class_weight= «balanced» que utilizaremos en este ejemplo. Además no todos los algoritmos tienen estas posibilidades. En redes neuronales por ejemplo podríamos ajustar la métrica de Loss, y asi penalizar las clases mayoritarias.
 
@@ -65,7 +66,8 @@ A continuacion de las variables seleccionadas, revisaremos la relacion existente
      <img src="./img/correlaciones.png" alt="Tipos de Datos">
 </div>
 
-Observemos luego las correlaciones desde un mapa de calor 
+<br>
+Observemos una **matriz de correlación** con un **mapa de calor** 
 
 <div align="center">
      <img src="./img/correlaciones2.png" alt="Tipos de Datos">
@@ -75,8 +77,8 @@ Observemos luego las correlaciones desde un mapa de calor
 
 Ahora bien, se encuentra disponible el dataset utilizado para llevar a cabo el analisis de los datos y dos (2) notebook que abarca tanto la preparación de los datos como el modelamiento
 
-[El Dataset](./Datasets/BBDD_Hospitalización.xlsx)
-[Preparacion de los datos](Preparacion_datos.ipynb)
+[El Dataset](./Datasets/BBDD_Hospitalización.xlsx) <br>
+[Preparacion de los datos](Preparacion_datos.ipynb) <br>
 [Preparacion de los datos](Preparacion_datos.ipynb)
 
 ## Conclusión
