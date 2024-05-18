@@ -21,6 +21,10 @@
 
 * [Glosario](#Glosario)
 
+* [Recursos](#Recursos)
+
+* [Créditos](#Créditos)
+
 ## Introducción
 
 El presente estudio se desarrolla en el marco de un proyecto de atención en salud para un importante cliente, donde hemos sido llamado para realizar un analisis de los datos y diseñar un modelo predictivo.  El objetivo principal es identificar las características más relevantes de los pacientes que tienen cierto tipo de enfermedad y que terminan en hospitalizacion.
