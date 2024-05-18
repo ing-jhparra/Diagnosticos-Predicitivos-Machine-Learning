@@ -79,7 +79,7 @@ Observemos una **matriz de correlación** con un **mapa de calor**
 
 ## Dataset y Notebook
 
-Ahora bien, se encuentra disponible el dataset utilizado para llevar a cabo el analisis de los datos y dos (2) notebook que abarca tanto la preparación de los datos como el modelamiento
+Se encuentra disponible el dataset utilizado para llevar a cabo el analisis de los datos y dos (2) notebook que abarca tanto la preparación de los datos como el modelamiento
 
 [El Dataset](./Datasets/BBDD_Hospitalización.xlsx) <br>
 [Preparacion de los datos](Preparacion_datos.ipynb) <br>
@@ -87,9 +87,11 @@ Ahora bien, se encuentra disponible el dataset utilizado para llevar a cabo el a
 
 ## Conclusión
 
-<h4 align="center">
-:construction: Tema en fase de desarrollo y prueba :construction:
-</h4>
+Los datos desbalanceados son un desafío común en Machine Learning y pueden afectar negativamente el rendimiento del modelo. Cuando las clases en los datos de entrenamiento no están representadas de manera uniforme, el modelo puede aprender a favorecer la clase mayoritaria y generalizar mal para la clase minoritaria.
+
+Es importante contar con datos balanceados para garantizar que el modelo aprenda de manera justa a partir de todas las clases y pueda realizar predicciones precisas para todas ellas.
+
+Para finalizar, encontrar el mejor modelo, se requiere de conocimientos, tiempo y algo de paciencia para ir probando de los distinto algoritmos existente, el mas idoneo al tipo de problema que se afronta, sin dejar pasar, probar sus hiperparámetros, con el propósito de encontrar la configuración que optimice el rendimiento.
 
 ## Glosario
 
