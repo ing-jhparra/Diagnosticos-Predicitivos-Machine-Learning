@@ -81,7 +81,7 @@ Observemos una **matriz de correlación** con un **mapa de calor**
 
 ## Modelamiento de un arbol de decisión 
 
-En este paso se instancia la calse, se entrena y se realiza la predicion sobre el modelo de un arbol de decisión para lo cual se obtuvo la siguietne matriz de confusion y puede observarse 
+En este paso se instancia la clase, se entrena y se realiza la predicion sobre un modelo de un arbol de decisión para lo cual se obtuvo la siguiente matriz de confusión : 
 
 <br>
 
@@ -91,7 +91,7 @@ En este paso se instancia la calse, se entrena y se realiza la predicion sobre e
 
 <br>
 
- En la clase del Si, tenemos un (1) fallos y 9 aciertos. Esto representa un  recall de 0.91 un valor muy bueno. También es interesante notar que en la columna de f1-score obtenemos muy buenos resultados. Nuestro modelo detectar correctamente los casos de Hospitalización.
+ En la clase del Si, tenemos un (1) fallos y 9 aciertos. Esto representa un **recall** de 0.91, un valor muy bueno. También es interesante notar que en la columna de **f1-score** obtenemos muy buenos resultados. Nuestro modelo detecta correctamente los casos de Hospitalización.
 
 <br>
 
@@ -106,11 +106,13 @@ En este paso se instancia la calse, se entrena y se realiza la predicion sobre e
 
 ## Dataset y Notebook
 
-Se encuentra disponible el dataset utilizado para llevar a cabo el analisis de los datos y dos (2) notebook que abarca tanto la preparación de los datos como el modelamiento
+Se encuentra disponible el dataset utilizado para llevar a cabo el analisis de los datos y dos (2) notebook
 
 [El Dataset](./Datasets/BBDD_Hospitalización.xlsx) <br>
-[Preparacion de los datos](Preparacion_datos.ipynb) <br>
-[Modelamiento](Modelamiento.ipynb)
+
+El notebook [Preparacion de los datos](Preparacion_datos.ipynb) presenta un EDA, se decide la exclusion de variables que no se consideran que aprte información relevante, un proceso de imputación y transformacion de los datos y una matriz de confusión para entender la correlación de las variables <br>
+
+El notebook [Modelamiento](Modelamiento.ipynb) presetna en si el analisis sobre un modelo aplicado al problema planteado, su entrenamiento y prueba.
 
 ## Conclusión
 
