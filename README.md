@@ -93,10 +93,9 @@ Ahora bien, se encuentra disponible el dataset utilizado para llevar a cabo el a
 
 ## Recursos
 
-[Cómo escribir un README increíble en tu Github](https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github)
-[Clases desbalanceadas en modelos de Machine Learning](https://www.juanbarrios.com/clases-desbalanceadas/)
-
-
+[Cómo escribir un README increíble en tu Github](https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github) <br>
+[Clases desbalanceadas en modelos de Machine Learning](https://www.juanbarrios.com/clases-desbalanceadas/) <br>
+[Markdown: Sintaxis](https://github.com/ricval/Documentacion/blob/master/Markdown/daringfireball/syntax.md)
 
 ## Créditos
 Copyright (c) 2024 [Ing. Jesús parra] parra.jesus@gmail.com
